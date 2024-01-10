@@ -1,0 +1,11 @@
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment1\BusinessObject\bin\Debug\net6.0\BusinessObject.deps.json
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment1\BusinessObject\bin\Debug\net6.0\BusinessObject.dll
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment1\BusinessObject\bin\Debug\net6.0\BusinessObject.pdb
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment1\BusinessObject\obj\Debug\net6.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment1\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfoInputs.cache
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment1\BusinessObject\obj\Debug\net6.0\BusinessObject.AssemblyInfo.cs
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment1\BusinessObject\obj\Debug\net6.0\BusinessObject.csproj.CoreCompileInputs.cache
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment1\BusinessObject\obj\Debug\net6.0\BusinessObject.dll
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment1\BusinessObject\obj\Debug\net6.0\refint\BusinessObject.dll
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment1\BusinessObject\obj\Debug\net6.0\BusinessObject.pdb
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment1\BusinessObject\obj\Debug\net6.0\ref\BusinessObject.dll

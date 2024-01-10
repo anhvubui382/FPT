@@ -1,0 +1,73 @@
+﻿<Window x:Class="SalesWPFApp.UpdateMember"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalesWPFApp"
+        mc:Ignorable="d"
+        Title="UpdateMember" Height="350" Width="400">
+    <Grid>
+        <Canvas Margin="0,0,0,-14" >
+            <Button x:Name="btnInsert"
+                    Canvas.Left="156"
+                    Height="28"
+                    Canvas.Top="284"
+                    Width="80"
+                    Content="Update"
+                    Click="btnUpdate_Click" />
+            <Label Content="Update Member" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="38" Grid.Row="0" FontWeight="Bold" Foreground="Orange" Canvas.Left="60"/>
+
+            <Label x:Name="lblEmail"
+                   Canvas.Left="83"
+                   Canvas.Top="59"
+                   Content="Email" FontWeight="Bold"/>
+            <TextBox x:Name="txtEmail"
+                     Canvas.Left="140"
+                     Canvas.Top="60"
+                     Width="193"
+                     Height="25" />
+            <Label x:Name="lblCompany"
+                   Canvas.Left="29"
+                   Canvas.Top="106"
+                   Content="CompanyName" FontWeight="Bold"/>
+            <TextBox x:Name="txtCompany"
+                     Canvas.Left="140"
+                     Canvas.Top="107"
+                     Width="193"
+                     Height="25" />
+            <Label x:Name="lblCity"
+                   Canvas.Left="84"
+                   Canvas.Top="152"
+                   Content="City" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold"/>
+            <TextBox x:Name="txtCity"
+                     Canvas.Left="140"
+                     Canvas.Top="153"
+                     Width="193"
+                     Height="25" />
+            <Label x:Name="lblCountry"
+                   Canvas.Left="66"
+                   Canvas.Top="200"
+                   Content="Country" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold"/>
+            <TextBox x:Name="txtCountry"
+                     Canvas.Left="140"
+                     Canvas.Top="200"
+                     Width="193"
+                     Height="25" />
+            <Label x:Name="lblPassword"
+                   Canvas.Left="59"
+                   Canvas.Top="240"
+                   Content="Password" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold"/>
+            <TextBox x:Name="txtPassword"
+                     Canvas.Left="140"
+                     Canvas.Top="240"
+                     Width="193"
+                     Height="25" />
+            <TextBox x:Name="txtId"
+                     Canvas.Left="140"
+                     Canvas.Top="300"
+                     Width="193"
+                     Height="25"
+                     Visibility="Hidden"/>
+        </Canvas>
+    </Grid>
+</Window>

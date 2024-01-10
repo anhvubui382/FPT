@@ -1,0 +1,78 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using SignalRAssignment.Entity
+@using SignalRAssignment.Models
+
+<a href="/Posts/Add" class="btn btn-primary">Add new</a>
+<form method="get">
+    <input type="text" hidden name="page" value="@ViewBag.page" />
+    <input type="search" value="@ViewBag.search" name="seachValue" placeholder="enter title or content to search" class="form-control" />
+    <input class="btn btn-primary" type="submit" value="Search" />
+</form>
+<table class="table">
+    <thead>
+        <tr class="table-primary">
+            <td>Title</td>
+            <th>Content</th>
+            <th>Author</th>
+            <th>Category</th>
+            <th>Created date</th>
+            <th>Updated date</th>
+            <th>Published</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (Posts item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Content</td>
+                    <td>@item.AppUsers.FullName</td>
+                    <td>@item.PostCategories.CategoryName</td>
+                    <td>@item.CreatedDate.ToString("dd-MM-yyyy")</td>
+                    <td>@item.UpdatedDate.ToString("dd-MM-yyyy")</td>
+                    <td>
+                        @{
+                            if (item.PublishStatus == 1)
+                            {
+                                <span class="text-success">Published</span>
+                            }
+                            else
+                            {
+                                <span class="text-danger">Not published</span>
+                            }
+                        }
+                    </td>
+                    <td>
+                        <a class="btn  btn-primary" href="/Posts/OnDelete/@item.PostID">Delete</a>
+                        <a class="btn  btn-primary" href="/Posts/Update/@item.PostID">Edit</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<div class="">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+            <li class="page-item@(ViewBag.Page == 0 || ViewBag.Page == 1 ? "disabled" : "")">
+                <a class="page-link" href="/Posts/Index?page=@(ViewBag.Page-1)">Previous</a>
+            </li>
+            @for (int i = 1; i <= ViewBag.totalPage; i++)
+            {
+                <li class="page-item @(ViewBag.Page == i ? "active" : "")">
+                    <a class="page-link" href="/Posts/Index?page=@i">@i</a>
+                </li>
+            }
+            <li class="page-item @(ViewBag.Page == ViewBag.totalPage
+                     ? "disabled" : "")">
+                <a class="page-link" href="/Posts/Index?page=@(ViewBag.Page+1)">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>

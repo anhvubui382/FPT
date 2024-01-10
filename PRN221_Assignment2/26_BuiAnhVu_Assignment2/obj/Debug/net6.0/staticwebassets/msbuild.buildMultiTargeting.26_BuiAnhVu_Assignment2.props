@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\26_BuiAnhVu_Assignment2.props" />
+</Project>

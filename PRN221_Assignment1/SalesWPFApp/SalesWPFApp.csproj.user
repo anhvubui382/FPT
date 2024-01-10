@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="InsertMember.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InsertOrder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="InsertProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="OnlyMember.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageMember.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageOrder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageReport.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RegisterMember.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateMember.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateOrder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UpdateProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="InsertMember.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InsertOrder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="InsertProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OnlyMember.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageMember.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageOrder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageReport.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RegisterMember.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateMember.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateOrder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UpdateProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

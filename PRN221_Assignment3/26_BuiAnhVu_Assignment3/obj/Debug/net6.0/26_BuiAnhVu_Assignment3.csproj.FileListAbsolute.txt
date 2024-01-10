@@ -1,0 +1,8 @@
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment3\26_BuiAnhVu_Assignment3\obj\Debug\net6.0\26_BuiAnhVu_Assignment3.csproj.AssemblyReference.cache
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment3\26_BuiAnhVu_Assignment3\obj\Debug\net6.0\26_BuiAnhVu_Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment3\26_BuiAnhVu_Assignment3\obj\Debug\net6.0\26_BuiAnhVu_Assignment3.AssemblyInfoInputs.cache
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment3\26_BuiAnhVu_Assignment3\obj\Debug\net6.0\26_BuiAnhVu_Assignment3.AssemblyInfo.cs
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment3\26_BuiAnhVu_Assignment3\obj\Debug\net6.0\26_BuiAnhVu_Assignment3.csproj.CoreCompileInputs.cache
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment3\26_BuiAnhVu_Assignment3\obj\Debug\net6.0\26_BuiAnhVu_Assignment3.MvcApplicationPartsAssemblyInfo.cache
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment3\26_BuiAnhVu_Assignment3\obj\Debug\net6.0\26_BuiAnhVu_Assignment3.RazorAssemblyInfo.cache
+D:\FALL2023\Blk5_PRN221\Code\26_BuiAnhVu_Assignment3\26_BuiAnhVu_Assignment3\obj\Debug\net6.0\26_BuiAnhVu_Assignment3.RazorAssemblyInfo.cs
